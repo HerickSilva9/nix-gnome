@@ -4,13 +4,14 @@
   
   imports = [
     # Diretórios
+    ./appimage
     ./browsers
 #    ./cloud-storage
     ./development
     ./fonts
 #    ./gaming
     ./kitty
-#    ./remote-desktop
+    ./remote-desktop
 
     # Arquivos
     ./common.nix
