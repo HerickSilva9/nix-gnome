@@ -21,6 +21,9 @@
   services.displayManager.gdm.enable = true;
   services.desktopManager.gnome.enable = true;
 
+  # Enable the X11 windowing system.
+  services.xserver.enable = true;
+
   environment.systemPackages = with pkgs; [ 
   gnome-tweaks
   gnomeExtensions.dash-to-panel
