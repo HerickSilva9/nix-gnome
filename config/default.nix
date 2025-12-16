@@ -9,6 +9,7 @@
     ./cloud-storage
     ./development
     ./fonts
+    ./flake
   # ./gaming
     ./kitty
     ./remote-desktop
