@@ -13,13 +13,4 @@ environment.systemPackages = with pkgs; [
     bat
   ];
 
-  swapDevices = [{
-    device = "/swapfile";
-    size = 8 * 1024;
-  }];
-
-# environment.sessionVariables = {
-#    GTK_THEME = "Adwaita:dark";
-#  };
-
 }

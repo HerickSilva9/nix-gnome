@@ -2,7 +2,7 @@
 
 {
 
-  # grub
+  # Enable the GRUB bootloader.
   boot.loader.grub = {
     enable = true;
     efiSupport =  true;
