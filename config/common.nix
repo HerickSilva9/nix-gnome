@@ -13,4 +13,10 @@ environment.systemPackages = with pkgs; [
     bat
   ];
 
+  nix.gc = {
+    automatic = true;
+    dates = "daily";
+    persistent = true;
+  };
+
 }
