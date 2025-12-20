@@ -11,6 +11,7 @@
     ./flake
     ./fonts
     ./gaming
+    ./home-manager
     ./kitty
     ./multimedia
     ./remote-desktop
