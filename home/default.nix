@@ -3,7 +3,8 @@
 {
 
     imports = [
+      ./dotfiles
       ./repositories.nix
     ];
-    
+
 }
