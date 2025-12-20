@@ -10,7 +10,7 @@
     ./development
     ./flake
     ./fonts
-  # ./gaming
+    ./gaming
     ./kitty
     ./multimedia
     ./remote-desktop
