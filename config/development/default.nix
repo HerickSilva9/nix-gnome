@@ -27,8 +27,9 @@
   ];
 
   programs.nix-ld.enable = true;
-  
-  # TODO corrigir nix-ld usando export LD_LIBRARY_PATH=$NIX_LD_LIBRARY_PATH
-  # para bibliotecas C necessárias no numpy/python
+ 
+  environment.sessionVariables = {
+    LD_LIBRARY_PATH = "$NIX_LD_LIBRARY_PATH";
+  };
 
 }
