@@ -16,11 +16,11 @@
     ./home-manager
     ./kitty
     ./klassy
-    ./messenger
+    #./messenger
     ./multimedia
     ./office
     ./remote-desktop
-    ./security
+    #./security
   ];
 
 }
